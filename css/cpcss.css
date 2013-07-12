@@ -1,0 +1,302 @@
+﻿@font-face
+{
+    font-family: VistaSlabOTBold;
+    src: url("path-to-font-file/../../fonts/VistaSlabOT-Bold.otf") format("opentype"),
+    url("path-to-font-file/../../fonts/VistaSlabOT-Light.woff") format('woff'),
+    url("path-to-font-file/../../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
+    
+    }
+    
+@font-face
+{
+    font-family: VistaSlabOTLight;
+    src: url("path-to-font-file/../../fonts/VistaSlabOT-Light.otf") format("opentype"),
+    url("path-to-font-file/../../fonts/VistaSlabOT-Light.woff") format('woff'),
+    url("path-to-font-file/../../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
+    }
+    
+ @font-face
+{
+    font-family: BebasNeue;
+    src: url("path-to-font-file/../../fonts/BebasNeue.otf") format("opentype"),
+    url("path-to-font-file/../../fonts/BebasNeue.woff") format('woff'),
+    url("path-to-font-file/../../fonts/BebasNeue.woff") format('embedded-opentype');
+    }
+
+
+body 
+{
+    text-align: center;
+    font-family: "VistaSlabOTBold", Serif, Arial, Verdana, sans-serif;
+    background-color:#003333; 
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(left, #006161 30%, #000000 160%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(left, #006161 30%, #000000 160%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(left, #006161 30%, #000000 160%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.3, #006161), color-stop(1.6, #000000));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(left, #006161 30%, #000000 160%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to right, #006161 30%, #000000 160%);
+}
+    	
+#page
+{
+    padding-left:15px;
+    text-align:center;
+    background-color:White;
+    border-radius: 10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    color: #005555;
+    }
+header
+{   
+    color: #005555;
+    padding-top: 10px;
+    height: 90px;
+    font-family: "BebasNeue";
+    font-size: 54px;
+   
+    }
+.campusHeader
+{
+    text-align:right;
+    margin-left: 25px;
+    margin-top: 35px;
+    }
+    
+.magazineHeader
+{
+    text-align:left;
+    margin-left:-50px;
+    margin-top: 35px;
+    }
+
+.headerImage
+{
+    
+    display: block;
+    margin: 0px auto;
+    margin-left: 62.5px;
+    
+    }
+    
+    
+nav
+{
+    font-family: 'VistaSlabOTLight', cursive;
+    float:left;
+    text-align: center;
+    color:#E50;
+    margin-top:-5px;
+    margin-bottom: 5px;
+    
+   
+    
+    }
+  
+ #nav1
+ {
+   margin-left:10px;
+     }
+
+
+ul
+{
+    padding: 0px;
+
+    }
+li
+{
+    display: inline;
+    padding: 5px;
+    
+    }
+    	
+ a:link
+  {
+      color: #ee5500;
+      text-decoration: none;
+      }
+ a:visited
+   {
+       
+       text-decoration: none;
+       }
+ a:hover
+    {
+        text-decoration: underline;
+        }
+
+ .navOrange
+ {
+     color:#ee5500;
+     }     
+ .campusHeader:hover
+ {
+     text-decoration: none;
+     }
+ .magazineHeader:hover
+ {
+      text-decoration: none;
+     }    	
+
+img.small   
+{
+    width: 125px;
+    height: 125px;
+    
+    }
+    
+ #coverImg
+ {
+       width: 885px;
+       height: 507px;
+       display: block;
+       margin: 0px auto;
+       padding-left:10px;
+       padding-bottom: 10px;
+       border:none;
+       
+     }
+ #imgBox
+ {
+     background-color:#ee5500;
+     width: 885px;
+     height: 35px;
+     display: block;
+     margin: 0px auto;
+     margin-left:33px;
+     margin-top: -55px;
+     padding-top:10px;
+     margin-bottom: 10px;
+     opacity: .7;
+     }
+     
+ 
+  #imgBox:hover
+  {
+      /*opacity:.5;*/
+      }
+      
+ .imgButton
+ {
+     padding-top:15px;
+     padding-bottom: 15px;
+     margin-left:80px;
+     font-size: 1.5em;
+     font-family: "BebasNeue";
+     color: White;
+     opacity: 1;
+     }
+     
+  #download
+  {
+      margin-left:215px;
+      color:White;
+      
+      }  
+  
+ #socialBox
+ {
+     display:inline;
+     float: left;
+     margin-left: 100px;
+     color:White;
+     }
+  #readBox
+  {
+     display:inline;
+     float: left;
+     margin-left: 100px;
+     
+      }
+ 
+  #read
+  {
+      margin-left:-5px;
+      color:White;
+      }
+      
+   #socialText
+      {
+          color:White;
+          } 
+      
+    #download:hover, #socialText:hover, #read:hover
+  {
+      background-color:White;
+      border: 0px solid White;
+      border-radius: 5px;
+      color: #ee5500;
+      
+      }
+  
+         
+ #Welcome
+ {
+         background-color: #efefef;
+         padding: 10px 0px 10px 0px;
+         margin-bottom: 20px;
+         border-radius: 10px;
+         margin-top: 15px;
+         margin-left:2px;
+         
+         }
+ 
+ #fbLike
+ {
+    text-align:left;
+    float:left;
+    margin-left: 33px;        
+         }
+         
+  #tweet
+  {
+      text-align:right;
+      float:right;
+      margin-right: -80px;
+      
+      }
+      
+  #googlePlus
+  {
+      text-align:right;
+      float:right;  
+      margin-left: 40px;
+      margin-right: 10px;
+          }
+  #magazine
+  {
+      border: 7px solid #ee5500;
+      background-color:#ee5500;
+      color: White;
+      }
+      
+   footer
+   {
+       font-size: smaller;
+       }
+.largePage
+{
+    width: 975px;
+    height: 1262px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-top: -10px; 
+    }
+    
+ #adFooter
+ {
+     margin-bottom: 20px;
+     }
+   
