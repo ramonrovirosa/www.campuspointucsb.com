@@ -1,27 +1,27 @@
 ﻿@font-face
 {
     font-family: VistaSlabOTBold;
-    src: url("path-to-font-file/../../fonts/VistaSlabOT-Bold.otf") format("opentype"),
-    url("path-to-font-file/../../fonts/VistaSlabOT-Light.woff") format('woff'),
-    url("path-to-font-file/../../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
-    
-    }
-    
+    src: url("../fonts/VistaSlabOT-Bold.otf") format("opentype"),
+    url("../fonts/VistaSlabOT-Light.woff") format('woff'),
+    url("../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
+
+}
+
 @font-face
 {
     font-family: VistaSlabOTLight;
-    src: url("path-to-font-file/../../fonts/VistaSlabOT-Light.otf") format("opentype"),
-    url("path-to-font-file/../../fonts/VistaSlabOT-Light.woff") format('woff'),
-    url("path-to-font-file/../../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
-    }
-    
- @font-face
+    src: url("../fonts/VistaSlabOT-Light.otf") format("opentype"),
+    url("../fonts/VistaSlabOT-Light.woff") format('woff'),
+    url("../fonts/VistaSlabOT-Light.eot") format('embedded-opentype');
+}
+
+@font-face
 {
     font-family: BebasNeue;
-    src: url("path-to-font-file/../../fonts/BebasNeue.otf") format("opentype"),
-    url("path-to-font-file/../../fonts/BebasNeue.woff") format('woff'),
-    url("path-to-font-file/../../fonts/BebasNeue.woff") format('embedded-opentype');
-    }
+    src: url("../fonts/BebasNeue.otf") format("opentype"),
+    url("../fonts/BebasNeue.woff") format('woff'),
+    url("../fonts/BebasNeue.eot") format('embedded-opentype');
+}
 
 
 body 
