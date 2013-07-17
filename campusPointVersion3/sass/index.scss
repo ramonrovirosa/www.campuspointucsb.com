@@ -1,0 +1,30 @@
+/* Background color for the top bar */
+//$topbar-bg: #E50;
+
+html,body {
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #006161 30%, #000000 160%);
+  margin-bottom: 20px;
+}
+
+.top-bar {
+
+}
+#mag{
+  a{
+    background-color: #C14400;
+    &:hover{
+      background-color: #D64C00;
+    }
+  }
+}
+
+#imgBox{
+  width: 90%;
+  height: 1500px;
+  background-color: white;
+}
+
+.top-bar-section ul li > a{
+  background:#E50
+}

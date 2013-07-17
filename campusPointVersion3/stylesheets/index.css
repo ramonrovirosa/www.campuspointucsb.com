@@ -1,0 +1,28 @@
+/* Background color for the top bar */
+/* line 4, ../sass/index.scss */
+html, body {
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #006161 30%, black 160%);
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/index.scss */
+#mag a {
+  background-color: #C14400;
+}
+/* line 16, ../sass/index.scss */
+#mag a:hover {
+  background-color: #D64C00;
+}
+
+/* line 22, ../sass/index.scss */
+#imgBox {
+  width: 90%;
+  height: 1500px;
+  background-color: white;
+}
+
+/* line 28, ../sass/index.scss */
+.top-bar-section ul li > a {
+  background: #ee5500;
+}
