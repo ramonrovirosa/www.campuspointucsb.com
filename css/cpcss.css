@@ -299,4 +299,11 @@ img.small
  {
      margin-bottom: 20px;
      }
+
+.bottom-bar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
    

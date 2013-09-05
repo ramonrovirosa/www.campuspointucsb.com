@@ -13427,24 +13427,25 @@ h1 {
 /* line 56, ../sass/index.scss */
 #imgBox {
   width: 90%;
-  height: 1500px;
+  margin-bottom: 20px;
   background-color: white;
   padding: 60px;
   padding-top: 30px;
+  height: auto;
 }
 
-/* line 64, ../sass/index.scss */
+/* line 66, ../sass/index.scss */
 .top-bar-section ul li > a {
   background: #ee5500;
 }
 
-/* line 68, ../sass/index.scss */
+/* line 70, ../sass/index.scss */
 .orbit-bullets {
   visibility: hidden;
 }
 
-/* line 73, ../sass/index.scss */
-#imgCntrl {
+/* line 75, ../sass/index.scss */
+.imgCntrl {
   text-align: center;
   background-color: #ee5500;
   width: auto;
@@ -13455,76 +13456,98 @@ h1 {
   padding-top: 0px;
   opacity: .7;
 }
-/* line 83, ../sass/index.scss */
-#imgCntrl a {
+/* line 85, ../sass/index.scss */
+.imgCntrl a {
   font-weight: bold;
   color: white;
   padding: 0px;
 }
-/* line 90, ../sass/index.scss */
-#imgCntrl #imgCntrl1 {
+/* line 92, ../sass/index.scss */
+.imgCntrl .imgCntrl1 {
   padding: 10px;
   height: 35px;
-}
-/* line 93, ../sass/index.scss */
-#imgCntrl #imgCntrl1:hover {
-  background-color: white;
 }
 /* line 95, ../sass/index.scss */
-#imgCntrl #imgCntrl1:hover a {
-  font-weight: bold;
-  color: #E50;
-}
-/* line 103, ../sass/index.scss */
-#imgCntrl #imgCntrl2 {
-  padding: 10px;
-  height: 35px;
-}
-/* line 106, ../sass/index.scss */
-#imgCntrl #imgCntrl2:hover {
+.imgCntrl .imgCntrl1:hover {
   background-color: white;
 }
-/* line 108, ../sass/index.scss */
-#imgCntrl #imgCntrl2:hover a {
-  font-weight: bold;
-  color: #E50;
-}
-/* line 116, ../sass/index.scss */
-#imgCntrl #imgCntrl3 {
-  padding: 10px;
-  height: 35px;
-}
-/* line 119, ../sass/index.scss */
-#imgCntrl #imgCntrl3:hover {
-  background-color: white;
-}
-/* line 121, ../sass/index.scss */
-#imgCntrl #imgCntrl3:hover a {
+/* line 97, ../sass/index.scss */
+.imgCntrl .imgCntrl1:hover a {
   font-weight: bold;
   color: #E50;
 }
 
-/* line 130, ../sass/index.scss */
+/* line 108, ../sass/index.scss */
 #socailCntrl {
   margin: 10px;
 }
-/* line 133, ../sass/index.scss */
+/* line 111, ../sass/index.scss */
 #socailCntrl #twitter {
   text-align: right;
   padding: 0px;
 }
 
-/* line 141, ../sass/index.scss */
+/* line 119, ../sass/index.scss */
 .capption {
   display: block;
-  padding: 18px;
+  padding: 13px;
   opacity: .9;
 }
-/* line 149, ../sass/index.scss */
+/* line 127, ../sass/index.scss */
 .capption a {
   color: black;
 }
-/* line 151, ../sass/index.scss */
+/* line 129, ../sass/index.scss */
 .capption a:hover {
   text-decoration: underline;
+}
+
+/* line 136, ../sass/index.scss */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
+
+/* line 143, ../sass/index.scss */
+.imgSpacing {
+  margin-top: 0px;
+}
+
+/* line 147, ../sass/index.scss */
+.inTheNewsMargin {
+  margin: 10px 0px;
+  background-color: #fbfbfb;
+}
+
+/* line 151, ../sass/index.scss */
+#news1 {
+  text-align: center;
+  background-color: #ee5500;
+  width: auto;
+  height: 35px;
+  opacity: .7;
+  margin-top: -35px;
+  padding-top: 10px;
+}
+/* line 159, ../sass/index.scss */
+#news1 a {
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+/* line 164, ../sass/index.scss */
+#news1:hover {
+  background-color: white;
+}
+/* line 166, ../sass/index.scss */
+#news1:hover a {
+  font-weight: bold;
+  color: #E50;
+}
+
+/* line 173, ../sass/index.scss */
+#imgWidth {
+  max-width: 75%;
 }

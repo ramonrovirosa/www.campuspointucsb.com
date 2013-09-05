@@ -1,0 +1,74 @@
+html, body {
+  /* Webkit (Chrome 11+) */
+  background-color: #003333;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #006161 30%, black 160%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #006161 30%, black 160%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #006161 30%, black 160%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.3, #006161), color-stop(1.6, black));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #006161 30%, black 160%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #006161 30%, black 160%);
+  margin-bottom: 20px; }
+
+.navbar {
+  margin-bottom: 20px; }
+
+#mainContainer {
+  min-height: 100px;
+  height: auto;
+  background-color: #f2f2f2;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 20px; }
+  #mainContainer #header {
+    color: #003A3A;
+    margin-right: 0px; }
+
+.footer {
+  text-align: center; }
+
+.centerText {
+  text-align: center; }
+
+.cpLogo {
+  margin-right: 20px;
+  border-radius: 10px; }
+
+.headerText {
+  font-size: 5em; }
+
+.items {
+  text-align: center;
+  background-color: #ee5500;
+  opacity: .7;
+  height: 50px;
+  margin-top: -50px; }
+
+#imgWidth {
+  width: 900px; }
+
+.padding {
+  padding-top: 12px;
+  margin-left: 20px;
+  padding-left: 33px;
+  padding-right: 33px; }
+
+.itemHeight {
+  height: 50px;
+  margin-top: 0px;
+  text-color: white; }
+  .itemHeight a {
+    color: white;
+    font-weight: bold; }
+  .itemHeight:hover {
+    background-color: white; }
+    .itemHeight:hover a {
+      color: #E50; }
+
+#last {
+  padding-right: 35px; }
